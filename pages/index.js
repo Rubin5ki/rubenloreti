@@ -1,10 +1,6 @@
 import Head from 'next/head'
-import { Suspense } from "react"
-import { Canvas, useLoader } from "@react-three/fiber"
-import { Environment, OrbitControls } from "@react-three/drei"
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
-import { useRef } from 'react'
-import { useFrame, useThree } from '@react-three/fiber'
+import { Suspense,useRef } from "react"
+import { useFrame,Canvas, useThree } from '@react-three/fiber'
 import { Preload, ScrollControls, Scroll, useScroll, Image, useFBO, PerspectiveCamera } from '@react-three/drei'
 
 
