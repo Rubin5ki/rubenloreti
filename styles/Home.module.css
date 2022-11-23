@@ -1,9 +1,22 @@
-.scene{
-  width:100vw;
-  height:100vh;
+.container {
 }
 
-.canvas{
-  background: rgb(0, 0, 0);
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size:4.5rem;
+}
+
+.title {
+  text-align: center;
 }
 
