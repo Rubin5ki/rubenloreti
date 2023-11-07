@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Ruben Loreti !</title>
-        <meta name="description" content="" />
+        <title>Portfolio | Home</title>
+        <meta name="Portfolio" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
