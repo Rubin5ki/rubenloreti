@@ -1,20 +1,21 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Portfolio | Home</title>
-        <meta name="Portfolio" content="" />
+        <meta name="Portfolio Ruben Loreti" content="Portfolio Ruben Loreti" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <motion.h1 className={styles.title} initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.2, ease: [0, 0.70, 0.2, 1], scale: { type: "spring", damping: 4, stiffness: 150, restDelta: 0.001}}}>
           Ruben Loreti
-        </h1>
+        </motion.h1>
       </main>
     </div>
   );
