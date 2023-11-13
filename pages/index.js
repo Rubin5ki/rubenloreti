@@ -8,12 +8,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Portfolio | Home</title>
-        <meta name="Portfolio Ruben Loreti" content="Portfolio Ruben Loreti" />
+        <meta name="description" content="Ruben Loreti's Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <motion.h1 className={styles.title} initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.2, ease: [0, 0.70, 0.2, 1], scale: { type: "spring", damping: 4, stiffness: 150, restDelta: 0.001}}}>
+        transition={{ duration: 0.2, ease: [0.1, 0.70, 0.2, 1], scale: { type: "spring", damping: 4, stiffness: 150, restDelta: 0.001}}}>
           Ruben Loreti
         </motion.h1>
       </main>
