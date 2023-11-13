@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <motion.h1 className={styles.title} initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.2, ease: [0, 0.70, 0.2, 1], scale: { type: "spring", damping: 4, stiffness: 150, restDelta: 0.001}}}>
+        transition={{ duration: 0.2, ease: [0.05,0.1,0.3, 0.70, 0.2, 1], scale: { type: "spring", damping: 4, stiffness: 150, restDelta: 0.001}}}>
           Ruben Loreti
         </motion.h1>
       </main>
