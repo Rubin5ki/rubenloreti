@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Portfolio | Home</title>
-        <meta name="Portfolio Ruben Loreti" content="Portfolio Ruben Loreti" />
+        <meta name="description" content="Ruben Loreti's Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>

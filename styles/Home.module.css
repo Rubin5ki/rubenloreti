@@ -13,10 +13,8 @@
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-size:4.5rem;
-}
-
-.title {
+  font-size:3.5rem;
   text-align: center;
+  position: fixed;
 }
 
