@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Portfolio | Home</title>
         <meta name="description" content="Ruben Loreti's Portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon.ico" />
       </Head>
       <main className={styles.main}>
         <motion.h1 className={styles.title} initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }}
